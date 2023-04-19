@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+      "chai": "^4.3.7",
+      "fs": "^0.0.1-security",
+      "mocha": "^10.2.0"
+    },
+    "name": "coding-exercise-master",
+    "description": "Knack is a no-code platform that includes an online database. Knack users will at times, through unexpected API usage or an unknown bug, corrupt their application schemas. One common issue they may run into is having duplicate fields and/or objects in their application schema. These duplicates cannot be removed by the Knack UI and lead to TypeErrors and other problems.",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "test": "mocha --reporter spec"
+    },
+    "author": "Agustin",
+    "license": "ISC"
+  }
+  
